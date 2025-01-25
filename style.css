@@ -88,6 +88,42 @@ body {
     transform: scale(1.05);
 }
 
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 1rem;
+    }
+    
+    .result-table {
+        width: 95%;
+        font-size: 0.8em;
+    }
+    
+    .click-area {
+        padding: 1.5rem 3rem;
+    }
+    
+    .result-table td {
+        padding: 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .click-area {
+        padding: 1rem 2rem;
+        border-radius: 15px;
+    }
+    
+    .hover-effect {
+        font-size: 1.5em;
+    }
+    
+    .result-table {
+        margin-top: 1.5rem;
+    }
+}
+
 @keyframes ripple {
     from {
         transform: scale(0);
